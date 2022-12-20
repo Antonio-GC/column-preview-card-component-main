@@ -11,5 +11,20 @@
     --Very-dark-cyan: hsl(179, 100%, 13%);
     --Transparent-white: hsla(0, 0%, 100%, 0.75);
     --Very-light-gray: hsl(0, 0%, 95%);
+    font-size: 62.5%;
 }
 
+button {
+    border: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 30rem);
+    justify-content: center;
+    align-items: center;
+}
+
+.container__card{
+    padding: 2rem;
+}
