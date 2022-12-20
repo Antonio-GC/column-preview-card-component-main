@@ -18,13 +18,33 @@ button {
     border: none;
 }
 
+body {
+   
+    
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, 30rem);
     justify-content: center;
     align-items: center;
+    
+    height: 100vh;
 }
 
-.container__card{
+.card{
     padding: 2rem;
 }
+
+.card__sedans {
+background-color: var(--Bright-orange);
+}
+
+.card__suvs {
+background-color: var(--Dark-cyan);
+}
+
+.card__luxury {
+background-color: var(--Very-dark-cyan);
+}
+
